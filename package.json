@@ -15,6 +15,7 @@
     "antd-mobile": "5.33.0",
     "antd-mobile-icons": "0.3.0",
     "axios": "^1.6.2",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-named-asset-import": "^0.3.8",
@@ -30,9 +31,10 @@
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
     "echarts": "5.4.3",
-    "eslint": "^8.3.0",
+    "eslint": "^8.55.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-webpack-plugin": "^3.1.1",
     "fastclick": "1.0.6",
@@ -162,5 +164,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.2"
   }
 }

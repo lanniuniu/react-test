@@ -12,6 +12,7 @@ import "./card.css";
  * @param {function} props.handlereSubmit - The submit handler function.
  * @returns {JSX.Element} The rendered card component.
  */
+// eslint-disable-next-line react/prop-types
 const Card = ({ name, image, stats, handlereSubmit }) => {
   return (
     <div className="card">
@@ -29,6 +30,7 @@ const Card = ({ name, image, stats, handlereSubmit }) => {
       >
         {stats ? (
           <ul>
+            {/* eslint-disable-next-line react/prop-types */}
             {stats.map((unit, index) => (
               <li key={index}>
                 {unit.stat.name}: {unit.base_stat}

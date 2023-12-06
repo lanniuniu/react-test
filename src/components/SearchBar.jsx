@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // SearchBar.js
 import React from "react";
 
